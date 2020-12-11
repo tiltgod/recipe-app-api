@@ -1,6 +1,11 @@
 [flake8]
+ignore=
+    E501,
+    E302
 exclude =
   migrations
   __pychace__,
   manage.py,
   setting.py
+
+  ignore= E302, E501 in .flake8 file
