@@ -1,7 +1,8 @@
 [flake8]
 ignore=
     E501,
-    E302
+    E302,
+    W191,
 exclude =
   migrations
   __pychace__,
