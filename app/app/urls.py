@@ -19,5 +19,6 @@ import user.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include(user.urls))
+    path('user/', include(user.urls)),
+    path('api/recipe/', include('recipe.urls')),
 ]
